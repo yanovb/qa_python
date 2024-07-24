@@ -1,1 +1,10 @@
-# qa_python
+- ```test_add_new_book_add_two_books``` проверяет ```add_new_book``` - метод добавления новых книг
+- ```test_set_book_genre_add_new_book_and_genre``` проверяет ```set_book_genre``` - метод добавления жанра из списка genre для книги
+- ```test_set_book_genre_add_new_book_and_another_genre_shows_empty``` проверяет, что метод  ```set_book_genre``` не добавляет жанры не из списка genre
+- ```test_get_book_genre_add_new_book_and_genre_get_genre``` проверяет, что метод ```get_book_genre``` возвращает жанр указанной книги
+- ```test_get_books_with_specific_genre_add_book_with_genre``` проверяет, что метод ```get_books_with_specific_genre``` возвращает список книг по жанру
+- ```test_get_books_genre_add_two_books``` проверяет, что метод ```get_books_genre``` возвращает словарь, где ключ - название книги, а значение - жанр
+- ```test_get_books_for_children_add_books``` проверяет, что метод ```get_books_for_children``` возвращает список книг, у которых жанр не входит в список genre_age_rating
+- ```test_add_book_in_favorites_add_books_in_favorites``` проверяет, что метод ```add_book_in_favorites``` добавляет книги в favorites
+- ```test_get_list_of_favorites_books_add_books_in_favorites``` проверяет, что метод ```get_list_of_favorites_books``` возвращает список книги в favorites
+- ```test_delete_book_from_favorites_delete_one_book``` проверяет, что метод ```delete_book_from_favorites``` удаляет книгу из списка favorites
